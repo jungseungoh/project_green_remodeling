@@ -11,7 +11,7 @@
 
 
 - **참여 인원** <br>
-총 4명 (<mark>팀장</mark>, 배경 조사, 데이터 분석, UX/UI 디자이너) <br><br>
+총 4명 : <mark>팀장</mark>  |  배경 조사 및 환경 분석  |  <mark>데이터 분석</mark>  |  UX/UI 디자이너 <br><br>
 
 
 - **분석 데이터** <br>
@@ -20,9 +20,9 @@
 
   
 - **분석 목적** <br>
-  - 서울시의 평균 기온 상승과 폭염, 한파, 열대야 등 이상기후 발생으로 인한 대책이 필요합니다. <br>
-  - 노후 건물에 방치된 저소득층, 고령층, 장애인 등 거주취약계층은 노후화된 시설물로 인해 다양한 사고의 위험성에 노출되어 있습니다. <br>
-  - 현재 그린 리모델링 사업 현황을 보면, 서울시 목표치 대비 저조한 실적을 보이고 있어 활성화 방안에 대한 고려가 필요합니다. <br><br>
+  - 서울시의 평균 기온 상승과 폭염, 한파, 열대야 등 이상기후 발생으로 인한 대책 필요 <br>
+  - 노후 건물에 방치된 저소득층, 고령층, 장애인 등 거주취약계층은 노후화된 시설물로 인해 다양한 사고의 위험성에 노출되어 있다. <br>
+  - 현재 그린 리모델링 사업 현황을 보면, 서울시 목표치 대비 **저조한 실적**을 보이고 있어 활성화 방안에 대한 대책 필요 <br><br>
 
   
 - **주요 업무 및 상세 역할** <br>
@@ -41,20 +41,26 @@
   - 다양한 방법으로 선정된 군집을 Hard Voting 방식으로 최종 통합하여 3개의 자치구 선정 <br>
     
   이 과정을 통해 데이터 수집부터 가공, 분석, 클러스터링, 최종 선정까지 프로젝트의 전반적인 흐름에 기여했습니다.
-
+  
+- **트러블 슈팅** <br>
+  - 군집화 과정에서 EDA 분석 때 예상한 값과는 다르게 도출되어 데이터 전처리 단계부터 **오류를 식별**하고자 함
+  - 모든 특성을 한꺼번에 고려하다 보니 중요한 특성이 **모호**해지는 문제 발견 -> 디버깅 과정을 통해 특성이 비슷한 변수들끼리 묶어서 변수를 <b>'재정의'</b>함
+  - 이후 이상치/결측치를 제거한 후, 검증된 데이터로 모델 재구축
+  - 다양한 클러스터링 방법을 활용해 **Test Case**를 적용하여 그린 리모델링이 필요한 우선 지역 선정 -> 분석 결과의 **신뢰성**과 모델의 **정확성 향상**
 
 - **분석 환경** <br>
-<code>Python</code>, <code>Excel</code>, <code>Folium</code>, <code>GIS</code><br><br>
+<code>Python</code>, <code>PCA</code>, <code>EDA</code>, <code>Hard Voting</code>, <code>Excel</code>, <code>Cluster Analysis</code>, <code>Tableau</code>, <code>Notion</code> <br><br>
 
 
 ## 프로젝트 내용 <br>
-서울시에 주거하는 취약계층의 경제·환경·안전적 측면의 문제와 탄소 문제를 해결하여 공공 이익·발전에 기여 할 수 있는 솔루션입니다. 기존에 진행되고 있던 민간 그린 리모델링의 저조한 사업 실적 추세에 대해 원인을 분석하고 복잡한 승인 절차를 간소화하여 실질적인 도움을 주고자 솔루션을 기획하게 되었습니다. <br><br>
-
-<img src="https://github.com/user-attachments/assets/178c8ba6-a3c7-4e26-b897-c3c7d2c82fc8" width="900" height="550">
+서울시에 주거하는 취약계층의 경제·환경·안전적 측면의 문제와 탄소 문제를 해결하여 공공 이익·발전에 기여 할 수 있는 솔루션입니다. 기존에 진행되고 있던 민간 그린 리모델링의 저조한 사업 실적 추세에 대해 원인을 분석하고 복잡한 승인 절차를 간소화하여 사용자 편의성을 개선하고자 솔루션을 기획하게 되었습니다. <br><br>
+<img src="https://github.com/user-attachments/assets/3783ef3e-ed00-4ba4-a7d1-7e2eecf095d5" width="800" height="400">
+<img src="https://github.com/user-attachments/assets/015ad4f4-9f3b-4b48-904d-79b82424dd1e" width="800" height="400">
+<img src="https://github.com/user-attachments/assets/178c8ba6-a3c7-4e26-b897-c3c7d2c82fc8" width="800" height="400">
 <br>
 
 
 ## 프로젝트 성과 <br>
-🏅 최우수상 <br>
-<img src="https://github.com/user-attachments/assets/eb9b7dbd-1b61-46dc-b18f-2a34f44865ae" width="450" height="550">
+🏅 <b>서울특별시장상(최우수상)</b> <br>
+<img src="https://github.com/user-attachments/assets/eb9b7dbd-1b61-46dc-b18f-2a34f44865ae" width="300" height="300">
 
